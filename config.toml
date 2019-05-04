@@ -2,3 +2,17 @@ baseURL = "http://example.org/"
 languageCode = "de-de"
 title = "Hugo Test Site"
 theme = "ananke"
+
+[mediaTypes]
+  [mediaTypes."text/enriched"]
+    suffixes = ["enr"]
+  [mediaTypes."text/html"]
+    suffixes = ["asp"]
+  [mediaTypes."application/json"]
+    suffixes = ["json"]
+
+[outputs]
+  home = ["HTML", "AMP", "RSS"]
+  page = ["HTML", "JSON"]
+  taxonomy = ["HTML", "JSON"]
+  taxonomyTerm = ["HTML", "JSON"]
