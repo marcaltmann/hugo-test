@@ -1,4 +1,3 @@
-{
-  "name": "{{ .Title }}",
-  "description" : "{{ .Description }}"
-}
+{{ define "response" }}
+{{ .Render "item" }}
+{{ end }}

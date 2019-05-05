@@ -1,0 +1,7 @@
+{{ define "response" }}
+[
+  {{ range $elem_index, $elem_val := .Pages }}
+    {{ if $elem_index }},{{ end }} {{ .Render "item" }}
+  {{ end }}
+]
+{{ end }}

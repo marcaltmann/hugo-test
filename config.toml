@@ -14,5 +14,7 @@ theme = "ananke"
 [outputs]
   home = ["HTML", "AMP", "RSS"]
   page = ["HTML", "JSON"]
+  list = ["HTML", "JSON"]
+  section = ["HTML", "JSON"]
   taxonomy = ["HTML", "JSON"]
   taxonomyTerm = ["HTML", "JSON"]
