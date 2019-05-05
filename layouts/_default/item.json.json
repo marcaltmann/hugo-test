@@ -1,0 +1,4 @@
+{
+  "name": "{{ .Title }}",
+  "role" : "{{ .Params.description }}"
+}
