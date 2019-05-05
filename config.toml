@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "de-de"
 title = "Hugo Test Site"
 theme = "ananke"
+DefaultContentLanguage = "de"
 
 [mediaTypes]
   [mediaTypes."text/enriched"]
@@ -18,3 +19,14 @@ theme = "ananke"
   section = ["HTML", "JSON"]
   taxonomy = ["HTML", "JSON"]
   taxonomyTerm = ["HTML", "JSON"]
+
+[languages]
+  [languages.de]
+    languageName = "German"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    weight = 2
+  [languages.fr]
+    languageName = "Français"
+    weight = 3
